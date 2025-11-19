@@ -20,7 +20,10 @@ It captures a frame in black and white every 30 seconds. The frames are represen
 ## Check movement
 Can you check if there was any movement?
 
-Complete the function called `checkMovement()`
+Complete functions called:
+
+1. `checkMovement()`
+2. `findPixels()`
 
 ``` kotlin
 fun checkMovement(f1: Array<IntArray>, f2: Array<IntArray>): Boolean{
@@ -30,5 +33,10 @@ fun checkMovement(f1: Array<IntArray>, f2: Array<IntArray>): Boolean{
 
 
     return movimentDetectat
+}
+```
+``` kotlin
+fun findPixels(f1: Array<IntArray>, f2: Array<IntArray>){
+    // TODO: Troba i imprimeix per pantalla els píxels que han canviat d'un frame a l'altre
 }
 ```
