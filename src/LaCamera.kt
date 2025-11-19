@@ -96,8 +96,20 @@ fun printPicture(frame: Array<IntArray>){
 fun checkMovement(f1: Array<IntArray>, f2: Array<IntArray>): Boolean{
     var movimentDetectat: Boolean = false
 
-    //TODO: Completar la funció
+    // TODO: Completar la funció
 
 
     return movimentDetectat
+}
+
+/**
+ * Funció que rep dos fotogrames per paràmetre i que troba i imprimeix les coordenades dels píxels que han canviat
+ *
+ * @param f1 Paràmetre que representa una matriu de 2D de tipus Array<IntArray>
+ * @param f2 Paràmetre que representa una matriu de 2D de tipus Array<IntArray>
+ * @author el teu nom
+ * @since 2.0
+ */
+fun findPixels(f1: Array<IntArray>, f2: Array<IntArray>){
+    // TODO: Troba i imprimeix per pantalla els píxels que han canviat d'un frame a l'altre
 }
