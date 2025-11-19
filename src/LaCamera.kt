@@ -45,8 +45,11 @@ fun main(){
     picture3[9] = intArrayOf(0,1,0,0,0,0,0,0,0)
 
     printPicture(picture1)
+    println()
     printPicture(picture2)
+    println()
     printPicture(picture3)
+    println()
 }
 
 /**
